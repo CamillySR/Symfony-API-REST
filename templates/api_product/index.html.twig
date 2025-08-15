@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h1>{{ title }}</h1>
+    <p>Bem-vindo ao meu projeto Symfony!</p>
+    <a href="{{ path('api_products') }}" target="_blank">Ver produtos (API)</a>
+</div>
+{% endblock %}
